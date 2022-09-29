@@ -1,0 +1,20 @@
+body {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+  
+  background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0.82) ) , url(http://images.pexels.com/photos/1448721/pexels-photo-1448721.jpeg?cs=srgb&dl=pexels-julio-melanda-1448721.jpg&fm=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f9f9f9;
+}
