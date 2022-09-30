@@ -6,8 +6,8 @@ import chef from './assets/Male-chef-cooking-in-kitchen.svg'
 function App() {
  
 
- const APP_ID = import.meta.env.PROD.VITE_APP_ID
- const APP_KEY = import.meta.env.VITE_APP_KEY
+ const APP_ID = '3fe1c19c'
+ const APP_KEY = "ea0a63705ff365d661645fe55d987a7d"
 
   
 
